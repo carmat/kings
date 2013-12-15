@@ -1,0 +1,26 @@
+{
+  "name": "Kings Go",
+  "title": "Kings Go",
+  "url": "http://mork.io/kings",
+  "author": "Colm Morgan",
+  "author_url": "http://carm.at",
+  "version": "0.1",
+  "copyright": "2013",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/carmat/kings-go.git"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-cssmin": "*",
+    "grunt-contrib-sass": "~0.5.1",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-cssc": "*",
+    "grunt-htmlhint": "*",
+    "matchdep": "~0.3.0",
+    "grunt-nodemon": "~0.1.2",
+    "grunt-concurrent": "~0.4.2"
+  }
+}
