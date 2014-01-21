@@ -1,4 +1,4 @@
-# Kings Go Application
+# Kings Application
 
 ## Notes
 
@@ -24,8 +24,7 @@ Some other Grunt tools
 * `npm install css-condense --save-dev`
 * `npm install grunt-develop --save-dev`
 
-### Browser
-Navigate your browser to `http://localhost:[port]/app/index.html` to see the app running in your browser.
+Once everything has been installed, run `grunt` and navigate your browser to `http://localhost:[port]/app/index.html` to see the app running in your browser.
 
 ## Application Directory Layout
 
