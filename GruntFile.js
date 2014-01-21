@@ -19,6 +19,44 @@ module.exports = function(grunt){
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
 
+        /** Nodemon
+         */
+         // nodemon: {
+         //     dev: {
+         //         options: {
+         //             file: 'scripts/web-server.js',
+         //             args: ['dev'],
+         //             nodeArgs: ['--debug'],
+         //             ignoredFiles: ['node_modules/**'],
+         //             watchedExtensions: ['js'],
+         //             watchedFolders: ['server'],
+         //             delayTime: 1,
+         //             legacyWatch: true,
+         //             env: {
+         //                 PORT: '9090',
+         //                 NODE_ENV: 'development'
+         //             },
+         //             cwd: __dirname
+         //         }
+         //     },
+         //     exec: {
+         //         options: {
+         //             exec: 'less'
+         //         }
+         //     }
+         // },
+
+        /**
+         * grunt-develop
+         */
+        develop: {
+            server: {
+                file: 'scripts/web-server.js',
+                nodeArgs: ['--debug'],              // optional
+                env: { NODE_ENV: 'development'}     // optional
+            }
+        },
+
         /**
          * Set project object
          */
@@ -27,7 +65,7 @@ module.exports = function(grunt){
             assets: '<%= project.app %>/assets',
             images: '<%= project.assets %>/img',
             lib: '<%= project.assets %>/lib',
-            css: '<%= project.assets %>/css/sass/app.scss',
+            sass: '<%= project.assets %>/css/sass/app.scss',
             js: [
                 '<%= project.assets %>/js/*.js'
             ]
@@ -57,7 +95,7 @@ module.exports = function(grunt){
                     banner: '<%= tag.banner %>'
                 },
                 files: {
-                    '<%= project.assets %>/css/app.css': '<%= project.css %>'
+                    '<%= project.assets %>/css/app.css': '<%= project.sass %>'
                 }
             },
             dist: {
@@ -65,7 +103,7 @@ module.exports = function(grunt){
                     style: 'compressed'
                 },
                 files: {
-                    '<%= project.assets %>/css/app.css': '<%= project.css %>'
+                    '<%= project.assets %>/css/app.css': '<%= project.sass %>'
                 }
             }
         },
@@ -78,49 +116,11 @@ module.exports = function(grunt){
                 files: '<%= project.assets %>/css/sass/{,*/}*.{scss,sass}',
                 tasks: ['sass:dev']
             }
-        },
-
-        /**
-         * 
-         */
-        nodemon: {
-            dev: {
-                options: {
-                    file: 'server.js',
-                    args: ['dev'],
-                    nodeArgs: ['--debug'],
-                    ignoredFiles: ['node_modules/**'],
-                    watchedExtensions: ['js'],
-                    watchedFolders: ['server'],
-                    delayTime: 1,
-                    legacyWatch: true,
-                    env: {
-                        PORT: '9090'
-                    },
-                    cwd: __dirname
-                }
-            },
-            exec: {
-                options: {
-                    exec: 'less'
-                }
-            }
-        },
-
-        /**
-         * grunt-develop
-         */
-        develop: {
-            server: {
-                file: 'scripts/web-server.js',
-                nodeArgs: ['--debug'],              // optional
-            //  args: ['appArg1', 'appArg2']        // optional
-                env: { NODE_ENV: 'development'}     // optional
-            }
         }
     });
 
     grunt.registerTask('default', [
+        'develop',
         'sass:dev',
         'watch'
     ]);

@@ -16,12 +16,11 @@
     <div class="deck" ng-model="orderProp">
         <div class="card" id="{{card.id}}" ng-repeat="card in deck">
             <div class="card__face card__face--front">{{card.shortname}}{{card.suit_symbol}}</div>
-            <!-- <div class="card__face card__face--back"></div> -->
         </div>
     </div>
 
     <!-- JS -->
-    <script src="assets/lib/angular/angular.js"></script>
+    <script src="assets/lib/angular.min.js"></script>
     <script src="assets/js/app.js"></script>
     <script src="assets/js/controllers.js"></script>
 </body>

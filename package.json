@@ -1,26 +1,34 @@
 {
-  "name": "Kings Go",
-  "title": "Kings Go",
-  "url": "http://mork.io/kings",
-  "author": "Colm Morgan",
-  "author_url": "http://carm.at",
-  "version": "0.1",
-  "copyright": "2013",
-  "private": true,
+  "name": "Kings",
+  "version": "0.1.0",
+  "description": "An AngularJS app to play Kings on any device",
+  "main": "GruntFile.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/carmat/kings-go.git"
+    "url": "git://github.com/carmat/kings.git"
   },
+  "author": "Colm Morgan",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "75b8d39f242a0adf4b71a43e6bb25239df4ddd8b",
   "devDependencies": {
     "grunt": "~0.4.2",
-    "grunt-contrib-cssmin": "*",
-    "grunt-contrib-sass": "~0.5.1",
-    "grunt-contrib-uglify": "*",
+    "grunt-contrib-cssmin": "~0.7.0",
+    "grunt-contrib-sass": "~0.6.0",
+    "grunt-contrib-uglify": "~0.3.1",
     "grunt-contrib-watch": "~0.5.3",
-    "grunt-cssc": "*",
-    "grunt-htmlhint": "*",
+    "grunt-cssc": "~0.2.6",
+    "grunt-htmlhint": "~0.4.0",
     "matchdep": "~0.3.0",
-    "grunt-nodemon": "~0.1.2",
-    "grunt-concurrent": "~0.4.2"
+    "grunt-nodemon": "~0.2.0",
+    "grunt-concurrent": "~0.4.3",
+    "css-condense": "0.0.6",
+    "grunt-develop": "~0.3.0"
   }
 }

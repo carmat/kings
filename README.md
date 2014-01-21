@@ -6,15 +6,49 @@ Please bear in mind that this README may not fully reflect the full workings of 
 
 ## Running the app during development
 
-* See http://gruntjs.com/getting-started
-* `npm install -g grunt-cli`
-* `npm install grunt --save-dev`
+See http://gruntjs.com/getting-started
+* `npm install -g grunt-cli` - Install Grunt CLI
+* `npm init` - Create the `package.json` file, follow the instructions
+* `npm install grunt --save-dev` - Install Grunt
 
-1. run `node ./scripts/web-server.js`on your command line
-2. navigate your browser to `http://localhost:[port]/app/index.html` to see the app running in your
-   browser.
+Some other Grunt tools
+* `npm install grunt-contrib-cssmin --save-dev`
+* `npm install grunt-contrib-sass --save-dev`
+* `npm install grunt-contrib-uglify --save-dev`
+* `npm install grunt-contrib-watch --save-dev`
+* `npm install grunt-cssc --save-dev`
+* `npm install grunt-htmlhint --save-dev`
+* `npm install matchdep --save-dev`
+* `npm install grunt-nodemon --save-dev`
+* `npm install grunt-concurrent --save-dev`
+* `npm install css-condense --save-dev`
+* `npm install grunt-develop --save-dev`
+
+### Browser
+Navigate your browser to `http://localhost:[port]/app/index.html` to see the app running in your browser.
 
 ## Application Directory Layout
+
+kings/
+    app/
+        assets/
+            css/
+                sass/
+                    base/
+                    lib/
+                    objects/
+                    pages/
+                    app.scss
+                app.css
+            img/
+            js/
+            lib/
+        partials/
+    config/
+    logs/
+    node_modules/
+    scripts/
+    test/
 
 ## Contact
 
