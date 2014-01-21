@@ -1,6 +1,9 @@
 /**
  *
  */
+$card_font: 2em;
+$card_width: $card_font * 1.25;
+$card_height: $card_width * 1.25;
 
 .deck {
     font-family: $font_sans;
@@ -11,44 +14,24 @@
 
 .card {
     box-sizing: border-box;
-    display: block;
-    // *display: inline;
-    // vertical-align: top;
+    display: inline-block;
+    *display: inline;
     position: relative;
-    margin: 0.25em;
     width: $card_width;
     height: $card_height;
+    margin: 0.25em;
+    padding: 0.25em;
+    border-radius: 0.25em;
+    border: 0.125em solid lighten(#000000, 75%);
+    font-size: $card_font;
+    text-align: center;
+    background-color: #ffffff;
 
     &:hover { cursor: pointer; }
 }
 
 .card__face {
-    display: block;
-    position: absolute;
-    // top: 0;
-    // left: 0;
-    // vertical-align: top;
     box-sizing: border-box;
-    border-radius: 0.25em;
-    border: 0.125em solid lighten(#000000, 75%);
-    padding: 0.25em;
-}
-
-.card__face--front {
-    font-size: 2em;
-    text-align: center;
-    background-color: #ffffff;
+    @extend %vertical-align;
     z-index: 1;
-}
-
-.card__face--back {
-    box-sizing: border-box;
-    font-size: 2em;
-    background-color: #55aaff;
-    margin-top: -100%;
-    z-index: 0;
-}
-
-.card__prop {
-    display: block;
 }

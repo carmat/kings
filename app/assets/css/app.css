@@ -25,6 +25,10 @@
  *
  * Modified by Elliot Jay Stocks
  */
+* {
+  font-size: 16px;
+}
+
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, cite, code,
@@ -229,6 +233,14 @@ td {
   vertical-align: top;
 }
 
+.card__face {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
 .outer_wrap {
   width: 100%;
   padding: 0;
@@ -247,40 +259,24 @@ td {
 
 .card {
   box-sizing: border-box;
-  display: block;
+  display: inline-block;
+  *display: inline;
   position: relative;
-  margin: 0.25em;
   width: 2.5em;
   height: 3.125em;
+  margin: 0.25em;
+  padding: 0.25em;
+  border-radius: 0.25em;
+  border: 0.125em solid #bfbfbf;
+  font-size: 2em;
+  text-align: center;
+  background-color: #ffffff;
 }
 .card:hover {
   cursor: pointer;
 }
 
 .card__face {
-  display: block;
-  position: absolute;
   box-sizing: border-box;
-  border-radius: 0.25em;
-  border: 0.125em solid #bfbfbf;
-  padding: 0.25em;
-}
-
-.card__face--front {
-  font-size: 2em;
-  text-align: center;
-  background-color: #ffffff;
   z-index: 1;
-}
-
-.card__face--back {
-  box-sizing: border-box;
-  font-size: 2em;
-  background-color: #55aaff;
-  margin-top: -100%;
-  z-index: 0;
-}
-
-.card__prop {
-  display: block;
 }
