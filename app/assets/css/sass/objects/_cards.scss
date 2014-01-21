@@ -1,0 +1,54 @@
+/**
+ *
+ */
+
+.deck {
+    font-family: $font_sans;
+    width: 80%;
+    max-width: 40em;
+    margin: 0 auto;
+}
+
+.card {
+    box-sizing: border-box;
+    display: block;
+    // *display: inline;
+    // vertical-align: top;
+    position: relative;
+    margin: 0.25em;
+    width: $card_width;
+    height: $card_height;
+
+    &:hover { cursor: pointer; }
+}
+
+.card__face {
+    display: block;
+    position: absolute;
+    // top: 0;
+    // left: 0;
+    // vertical-align: top;
+    box-sizing: border-box;
+    border-radius: 0.25em;
+    border: 0.125em solid lighten(#000000, 75%);
+    padding: 0.25em;
+}
+
+.card__face--front {
+    font-size: 2em;
+    text-align: center;
+    background-color: #ffffff;
+    z-index: 1;
+}
+
+.card__face--back {
+    box-sizing: border-box;
+    font-size: 2em;
+    background-color: #55aaff;
+    margin-top: -100%;
+    z-index: 0;
+}
+
+.card__prop {
+    display: block;
+}

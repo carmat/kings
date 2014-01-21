@@ -1,0 +1,694 @@
+[
+    {
+        "id": "as",
+        "rank": "14",
+        "rank_name": "Ace",
+        "suit": "spades",
+        "suit_symbol": "s",
+        "suit_rank": "01",
+        "shortname": "A",
+        "props": [
+            "numeric",
+            "broadway"
+        ]
+    },
+    {
+        "id": "ks",
+        "rank": "13",
+        "rank_name": "King",
+        "suit": "spades",
+        "suit_symbol": "s",
+        "suit_rank": "01",
+        "shortname": "K",
+        "props": [
+            "royal",
+            "broadway"
+        ]
+    },
+    {
+        "id": "qs",
+        "rank": "12",
+        "rank_name": "Queen",
+        "suit": "spades",
+        "suit_symbol": "s",
+        "suit_rank": "01",
+        "shortname": "Q",
+        "props": [
+            "royal",
+            "broadway"
+        ]
+    },
+    {
+        "id": "js",
+        "rank": "11",
+        "rank_name": "Jack",
+        "suit": "spades",
+        "suit_symbol": "s",
+        "suit_rank": "01",
+        "shortname": "J",
+        "props": [
+            "royal",
+            "broadway"
+        ]
+    },
+    {
+        "id": "ts",
+        "rank": "10",
+        "rank_name": "Ten",
+        "suit": "spades",
+        "suit_symbol": "s",
+        "suit_rank": "01",
+        "shortname": "T",
+        "props": [
+            "numeric",
+            "broadway"
+        ]
+    },
+    {
+        "id": "9s",
+        "rank": "09",
+        "rank_name": "Nine",
+        "suit": "spades",
+        "suit_symbol": "s",
+        "suit_rank": "01",
+        "shortname": "9",
+        "props": [
+            "numeric"
+        ]
+    },
+    {
+        "id": "8s",
+        "rank": "08",
+        "rank_name": "Eight",
+        "suit": "spades",
+        "suit_symbol": "s",
+        "suit_rank": "01",
+        "shortname": "8",
+        "props": [
+            "numeric"
+        ]
+    },
+    {
+        "id": "7s",
+        "rank": "07",
+        "rank_name": "Seven",
+        "suit": "spades",
+        "suit_symbol": "s",
+        "suit_rank": "01",
+        "shortname": "7",
+        "props": [
+            "numeric"
+        ]
+    },
+    {
+        "id": "6s",
+        "rank": "06",
+        "rank_name": "Six",
+        "suit": "spades",
+        "suit_symbol": "s",
+        "suit_rank": "01",
+        "shortname": "6",
+        "props": [
+            "numeric"
+        ]
+    },
+    {
+        "id": "5s",
+        "rank": "05",
+        "rank_name": "Five",
+        "suit": "spades",
+        "suit_symbol": "s",
+        "suit_rank": "01",
+        "shortname": "5",
+        "props": [
+            "numeric"
+        ]
+    },
+    {
+        "id": "4s",
+        "rank": "04",
+        "rank_name": "Four",
+        "suit": "spades",
+        "suit_symbol": "s",
+        "suit_rank": "01",
+        "shortname": "4",
+        "props": [
+            "numeric"
+        ]
+    },
+    {
+        "id": "3s",
+        "rank": "03",
+        "rank_name": "Three",
+        "suit": "spades",
+        "suit_symbol": "s",
+        "suit_rank": "01",
+        "shortname": "3",
+        "props": [
+            "numeric"
+        ]
+    },
+    {
+        "id": "2s",
+        "rank": "02",
+        "rank_name": "Two",
+        "suit": "spades",
+        "suit_symbol": "s",
+        "suit_rank": "01",
+        "shortname": "2",
+        "props": [
+            "numeric"
+        ]
+    },
+    {
+        "id": "xs",
+        "rank": "01",
+        "rank_name": "Joker",
+        "suit": "spades",
+        "suit_symbol": "s",
+        "suit_rank": "01",
+        "shortname": "X",
+        "props": [
+            "wildcard"
+        ]
+    },
+    {
+        "id": "ah",
+        "rank": "14",
+        "rank_name": "Ace",
+        "suit": "hearts",
+        "suit_symbol": "h",
+        "suit_rank": "02",
+        "shortname": "A",
+        "props": [
+            "numeric",
+            "broadway"
+        ]
+    },
+    {
+        "id": "kh",
+        "rank": "13",
+        "rank_name": "King",
+        "suit": "hearts",
+        "suit_symbol": "h",
+        "suit_rank": "02",
+        "shortname": "K",
+        "props": [
+            "royal",
+            "broadway"
+        ]
+    },
+    {
+        "id": "qh",
+        "rank": "12",
+        "rank_name": "Queen",
+        "suit": "hearts",
+        "suit_symbol": "h",
+        "suit_rank": "02",
+        "shortname": "Q",
+        "props": [
+            "royal",
+            "broadway"
+        ]
+    },
+    {
+        "id": "jh",
+        "rank": "11",
+        "rank_name": "Jack",
+        "suit": "hearts",
+        "suit_symbol": "h",
+        "suit_rank": "02",
+        "shortname": "J",
+        "props": [
+            "royal",
+            "broadway"
+        ]
+    },
+    {
+        "id": "th",
+        "rank": "10",
+        "rank_name": "Ten",
+        "suit": "hearts",
+        "suit_symbol": "h",
+        "suit_rank": "02",
+        "shortname": "T",
+        "props": [
+            "numeric",
+            "broadway"
+        ]
+    },
+    {
+        "id": "9h",
+        "rank": "09",
+        "rank_name": "Nine",
+        "suit": "hearts",
+        "suit_symbol": "h",
+        "suit_rank": "02",
+        "shortname": "9",
+        "props": [
+            "numeric"
+        ]
+    },
+    {
+        "id": "8h",
+        "rank": "08",
+        "rank_name": "Eight",
+        "suit": "hearts",
+        "suit_symbol": "h",
+        "suit_rank": "02",
+        "shortname": "8",
+        "props": [
+            "numeric"
+        ]
+    },
+    {
+        "id": "7h",
+        "rank": "07",
+        "rank_name": "Seven",
+        "suit": "hearts",
+        "suit_symbol": "h",
+        "suit_rank": "02",
+        "shortname": "7",
+        "props": [
+            "numeric"
+        ]
+    },
+    {
+        "id": "6h",
+        "rank": "06",
+        "rank_name": "Six",
+        "suit": "hearts",
+        "suit_symbol": "h",
+        "suit_rank": "02",
+        "shortname": "6",
+        "props": [
+            "numeric"
+        ]
+    },
+    {
+        "id": "5h",
+        "rank": "05",
+        "rank_name": "Five",
+        "suit": "hearts",
+        "suit_symbol": "h",
+        "suit_rank": "02",
+        "shortname": "5",
+        "props": [
+            "numeric"
+        ]
+    },
+    {
+        "id": "4h",
+        "rank": "04",
+        "rank_name": "Four",
+        "suit": "hearts",
+        "suit_symbol": "h",
+        "suit_rank": "02",
+        "shortname": "4",
+        "props": [
+            "numeric"
+        ]
+    },
+    {
+        "id": "3h",
+        "rank": "03",
+        "rank_name": "Three",
+        "suit": "hearts",
+        "suit_symbol": "h",
+        "suit_rank": "02",
+        "shortname": "3",
+        "props": [
+            "numeric"
+        ]
+    },
+    {
+        "id": "2h",
+        "rank": "02",
+        "rank_name": "Two",
+        "suit": "hearts",
+        "suit_symbol": "h",
+        "suit_rank": "02",
+        "shortname": "2",
+        "props": [
+            "numeric"
+        ]
+    },
+    {
+        "id": "xh",
+        "rank": "01",
+        "rank_name": "Joker",
+        "suit": "hearts",
+        "suit_symbol": "h",
+        "suit_rank": "02",
+        "shortname": "X",
+        "props": [
+            "wildcard"
+        ]
+    },
+    {
+        "id": "ac",
+        "rank": "14",
+        "rank_name": "Ace",
+        "suit": "clubs",
+        "suit_symbol": "c",
+        "suit_rank": "03",
+        "shortname": "A",
+        "props": [
+            "numeric",
+            "broadway"
+        ]
+    },
+    {
+        "id": "kc",
+        "rank": "13",
+        "rank_name": "King",
+        "suit": "clubs",
+        "suit_symbol": "c",
+        "suit_rank": "03",
+        "shortname": "K",
+        "props": [
+            "royal",
+            "broadway"
+        ]
+    },
+    {
+        "id": "qc",
+        "rank": "12",
+        "rank_name": "Queen",
+        "suit": "clubs",
+        "suit_symbol": "c",
+        "suit_rank": "03",
+        "shortname": "Q",
+        "props": [
+            "royal",
+            "broadway"
+        ]
+    },
+    {
+        "id": "jc",
+        "rank": "11",
+        "rank_name": "Jack",
+        "suit": "clubs",
+        "suit_symbol": "c",
+        "suit_rank": "03",
+        "shortname": "J",
+        "props": [
+            "royal",
+            "broadway"
+        ]
+    },
+    {
+        "id": "tc",
+        "rank": "10",
+        "rank_name": "Ten",
+        "suit": "clubs",
+        "suit_symbol": "c",
+        "suit_rank": "03",
+        "shortname": "T",
+        "props": [
+            "numeric",
+            "broadway"
+        ]
+    },
+    {
+        "id": "9c",
+        "rank": "09",
+        "rank_name": "Nine",
+        "suit": "clubs",
+        "suit_symbol": "c",
+        "suit_rank": "03",
+        "shortname": "9",
+        "props": [
+            "numeric"
+        ]
+    },
+    {
+        "id": "8c",
+        "rank": "08",
+        "rank_name": "Eight",
+        "suit": "clubs",
+        "suit_symbol": "c",
+        "suit_rank": "03",
+        "shortname": "8",
+        "props": [
+            "numeric"
+        ]
+    },
+    {
+        "id": "7c",
+        "rank": "07",
+        "rank_name": "Seven",
+        "suit": "clubs",
+        "suit_symbol": "c",
+        "suit_rank": "03",
+        "shortname": "7",
+        "props": [
+            "numeric"
+        ]
+    },
+    {
+        "id": "6c",
+        "rank": "06",
+        "rank_name": "Six",
+        "suit": "clubs",
+        "suit_symbol": "c",
+        "suit_rank": "03",
+        "shortname": "6",
+        "props": [
+            "numeric"
+        ]
+    },
+    {
+        "id": "5c",
+        "rank": "05",
+        "rank_name": "Five",
+        "suit": "clubs",
+        "suit_symbol": "c",
+        "suit_rank": "03",
+        "shortname": "5",
+        "props": [
+            "numeric"
+        ]
+    },
+    {
+        "id": "4c",
+        "rank": "04",
+        "rank_name": "Four",
+        "suit": "clubs",
+        "suit_symbol": "c",
+        "suit_rank": "03",
+        "shortname": "4",
+        "props": [
+            "numeric"
+        ]
+    },
+    {
+        "id": "3c",
+        "rank": "03",
+        "rank_name": "Three",
+        "suit": "clubs",
+        "suit_symbol": "c",
+        "suit_rank": "03",
+        "shortname": "3",
+        "props": [
+            "numeric"
+        ]
+    },
+    {
+        "id": "2c",
+        "rank": "02",
+        "rank_name": "Two",
+        "suit": "clubs",
+        "suit_symbol": "c",
+        "suit_rank": "03",
+        "shortname": "2",
+        "props": [
+            "numeric"
+        ]
+    },
+    {
+        "id": "xc",
+        "rank": "01",
+        "rank_name": "Joker",
+        "suit": "clubs",
+        "suit_symbol": "c",
+        "suit_rank": "03",
+        "shortname": "X",
+        "props": [
+            "wildcard"
+        ]
+    },
+    {
+        "id": "ad",
+        "rank": "14",
+        "rank_name": "Ace",
+        "suit": "diamonds",
+        "suit_symbol": "d",
+        "suit_rank": "04",
+        "shortname": "A",
+        "props": [
+            "numeric",
+            "broadway"
+        ]
+    },
+    {
+        "id": "kd",
+        "rank": "13",
+        "rank_name": "King",
+        "suit": "diamonds",
+        "suit_symbol": "d",
+        "suit_rank": "04",
+        "shortname": "K",
+        "props": [
+            "royal",
+            "broadway"
+        ]
+    },
+    {
+        "id": "qd",
+        "rank": "12",
+        "rank_name": "Queen",
+        "suit": "diamonds",
+        "suit_symbol": "d",
+        "suit_rank": "04",
+        "shortname": "Q",
+        "props": [
+            "royal",
+            "broadway"
+        ]
+    },
+    {
+        "id": "jd",
+        "rank": "11",
+        "rank_name": "Jack",
+        "suit": "diamonds",
+        "suit_symbol": "d",
+        "suit_rank": "04",
+        "shortname": "J",
+        "props": [
+            "royal",
+            "broadway"
+        ]
+    },
+    {
+        "id": "td",
+        "rank": "10",
+        "rank_name": "Ten",
+        "suit": "diamonds",
+        "suit_symbol": "d",
+        "suit_rank": "04",
+        "shortname": "T",
+        "props": [
+            "numeric",
+            "broadway"
+        ]
+    },
+    {
+        "id": "9d",
+        "rank": "09",
+        "rank_name": "Nine",
+        "suit": "diamonds",
+        "suit_symbol": "d",
+        "suit_rank": "04",
+        "shortname": "9",
+        "props": [
+            "numeric"
+        ]
+    },
+    {
+        "id": "8d",
+        "rank": "08",
+        "rank_name": "Eight",
+        "suit": "diamonds",
+        "suit_symbol": "d",
+        "suit_rank": "04",
+        "shortname": "8",
+        "props": [
+            "numeric"
+        ]
+    },
+    {
+        "id": "7d",
+        "rank": "07",
+        "rank_name": "Seven",
+        "suit": "diamonds",
+        "suit_symbol": "d",
+        "suit_rank": "04",
+        "shortname": "7",
+        "props": [
+            "numeric"
+        ]
+    },
+    {
+        "id": "6d",
+        "rank": "06",
+        "rank_name": "Six",
+        "suit": "diamonds",
+        "suit_symbol": "d",
+        "suit_rank": "04",
+        "shortname": "6",
+        "props": [
+            "numeric"
+        ]
+    },
+    {
+        "id": "5d",
+        "rank": "05",
+        "rank_name": "Five",
+        "suit": "diamonds",
+        "suit_symbol": "d",
+        "suit_rank": "04",
+        "shortname": "5",
+        "props": [
+            "numeric"
+        ]
+    },
+    {
+        "id": "4d",
+        "rank": "04",
+        "rank_name": "Four",
+        "suit": "diamonds",
+        "suit_symbol": "d",
+        "suit_rank": "04",
+        "shortname": "4",
+        "props": [
+            "numeric"
+        ]
+    },
+    {
+        "id": "3d",
+        "rank": "03",
+        "rank_name": "Three",
+        "suit": "diamonds",
+        "suit_symbol": "d",
+        "suit_rank": "04",
+        "shortname": "3",
+        "props": [
+            "numeric"
+        ]
+    },
+    {
+        "id": "2d",
+        "rank": "02",
+        "rank_name": "Two",
+        "suit": "diamonds",
+        "suit_symbol": "d",
+        "suit_rank": "04",
+        "shortname": "2",
+        "props": [
+            "numeric"
+        ]
+    },
+    {
+        "id": "xd",
+        "rank": "01",
+        "rank_name": "Joker",
+        "suit": "diamonds",
+        "suit_symbol": "d",
+        "suit_rank": "04",
+        "shortname": "X",
+        "props": [
+            "wildcard"
+        ]
+    }
+]

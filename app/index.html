@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="deckApp">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+    
+    <title>Kings :Prototype:</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+</head>
+
+<body ng-controller="DeckCtrl">
+
+    <div class="deck" ng-model="orderProp">
+        <div class="card" id="{{card.id}}" ng-repeat="card in deck">
+            <div class="card__face card__face--front">{{card.shortname}}{{card.suit_symbol}}</div>
+            <!-- <div class="card__face card__face--back"></div> -->
+        </div>
+    </div>
+
+    <!-- JS -->
+    <script src="assets/lib/angular/angular.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/controllers.js"></script>
+</body>
+</html>
