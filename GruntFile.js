@@ -11,7 +11,9 @@
  */
 module.exports = function(grunt){
     require("matchdep").filterDev("grunt-*").forEach(grunt.loadNpmTasks);
-    grunt.loadNpmTasks('grunt-nodemon');
+    grunt.loadNpmTasks(
+        'grunt-contrib-sass'
+    );
 
     /**
      * Configuration

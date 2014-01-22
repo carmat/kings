@@ -26,7 +26,6 @@
     "grunt-cssc": "~0.2.6",
     "grunt-htmlhint": "~0.4.0",
     "matchdep": "~0.3.0",
-    "grunt-nodemon": "~0.2.0",
     "grunt-concurrent": "~0.4.3",
     "css-condense": "0.0.6",
     "grunt-develop": "~0.3.0"
