@@ -1,0 +1,12 @@
+/*
+ * IE Stylesheet
+ */
+
+.ie {
+    display: none;
+
+    &.ie8,
+    &.ie9 {
+        display: block;
+    }
+}

@@ -67,7 +67,9 @@ module.exports = function(grunt){
             assets: '<%= project.app %>/assets',
             images: '<%= project.assets %>/img',
             lib: '<%= project.assets %>/lib',
-            sass: '<%= project.assets %>/css/sass/app.scss',
+            sass_dir: '<%= project.assets %>/css/sass',
+            sass: '<%= project.sass_dir %>/app.scss',
+            sass_ie: '<%= project.sass_dir %>/ie.scss',
             js: [
                 '<%= project.assets %>/js/*.js'
             ]
@@ -97,7 +99,8 @@ module.exports = function(grunt){
                     banner: '<%= tag.banner %>'
                 },
                 files: {
-                    '<%= project.assets %>/css/app.css': '<%= project.sass %>'
+                    '<%= project.assets %>/css/app.css': '<%= project.sass %>',
+                    '<%= project.assets %>/css/ie.css': '<%= project.sass_ie %>'
                 }
             },
             dist: {
@@ -105,7 +108,8 @@ module.exports = function(grunt){
                     style: 'compressed'
                 },
                 files: {
-                    '<%= project.assets %>/css/app.css': '<%= project.sass %>'
+                    '<%= project.assets %>/css/app.css': '<%= project.sass %>',
+                    '<%= project.assets %>/css/ie.css': '<%= project.sass_ie %>'
                 }
             }
         },
@@ -115,7 +119,7 @@ module.exports = function(grunt){
          */
         watch: {
             sass: {
-                files: '<%= project.assets %>/css/sass/{,*/}*.{scss,sass}',
+                files: '<%= project.sass_dir %>/{,*/}*.{scss,sass}',
                 tasks: ['sass:dev']
             }
         }
