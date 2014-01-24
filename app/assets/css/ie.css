@@ -1,0 +1,18 @@
+/*!
+ * Kings
+ * 
+ * 
+ * @author Colm Morgan
+ * @version 0.1.0
+ * Copyright . BSD licensed.
+ */
+
+/*
+ * IE Stylesheet
+ */
+.ie {
+  display: none;
+}
+.ie.ie8, .ie.ie9 {
+  display: block;
+}
