@@ -28,6 +28,7 @@ Once everything has been installed, run `grunt` and navigate your browser to `ht
 
 ## Application Directory Layout
 
+```txt
 kings/
     app/
         assets/
@@ -48,6 +49,7 @@ kings/
     node_modules/
     scripts/
     test/
+```
 
 ## Contact
 
